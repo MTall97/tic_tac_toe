@@ -1,0 +1,61 @@
+* {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive, sans-serif;
+    margin: 3rem;
+    text-align: center; /* Centrer tout le contenu */
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    gap: 1.3rem;
+    margin: 3rem auto;
+}
+
+.case {
+    border: 1px solid brown;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p:first-of-type {
+    color: lightgreen;
+}
+
+p:last-of-type {
+    color: lightblue;
+}
+
+button {
+    height: 3rem;
+    width: 11rem;
+    font-size: 1.3rem;
+    font-family: cursive, sans-serif;
+    margin-top: 1.5rem;
+    margin-left: auto; /* Centrer horizontalement */
+    margin-right: auto; /* Centrer horizontalement */
+    color: white;
+    background-color: yellowgreen;
+    cursor: pointer;
+}

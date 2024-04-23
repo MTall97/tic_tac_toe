@@ -1,0 +1,5 @@
+l'idee à terme est que le jeu combiné à l'intelligence artificielle puisse creer des modules de chiffement complexe
+en jouant avec un ordinateur
+
+
+avec le multithreading plusieurs traitement se feront pour divers utilisateur
